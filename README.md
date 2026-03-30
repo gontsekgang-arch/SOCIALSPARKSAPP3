@@ -17,6 +17,8 @@ Social sparks is a simple Android application designed to stay socially conncted
   statements  to determine the correct suggestion.Once the input is checked,a matching social activity is displayed on the screen.If the user wants to try  a different time if,
   they can use the reset button to clear the input and start again.
   <ol>
-    <li></li>
+    <li>Android Developers.(n.d.).Android documentation.Retrieved March 30,2026,from 
+    https://developer.android.com/docs.
+    Github Open Source Libraries.Libraries used for funtionality like image loading, networking, or animations(if and).https://github.com/bumptech/glide.</li>
   </ol>
   
