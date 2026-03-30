@@ -26,15 +26,20 @@ class MainActivity : AppCompatActivity() {
 
 //Suggest button logic
         btnSugggest.setOnClickListener {
+            // if statement using to show based on time contained
             val time = edtTime.text.toString().lowercase()
+            //Morning Statement
             if (time == "morning") {
+                //Mid-morning Statement
                 txtResult.text = "Send a Good Morning text to a family member"
-            } else if (time == "mid-morning") {
+            } else if (time == "mid-morning") { //Mid morning statement
             }
             txtResult.text = "Send a quick 'Thank you' to a collegue"
             {}
+            //Afternoon Statement
             if (time == "afternoon") {
                 if (time == "snack time") {
+                    //Dinner Statement
                     txtResult.text = "Send a 'Thinking about you' message"
                     if (time == "dinner")
                         txtResult.text = "Call a friend for 5-minutes catch-up"
